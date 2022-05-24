@@ -1,4 +1,6 @@
-/* police css */
+*{
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
     margin: 0;
@@ -16,6 +18,40 @@ img.center-block.image-resize-mode
   height: 400px;
   object-fit: cover;
 }
+
+#bloc-8
+{
+  background-color: #F3976C;
+}
+
+h1 {
+  color: white;
+  background-color: #484848;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 45px;
+}
+
+.black-background {
+  background-color: #484848;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+}
+
+.text-center-black
+{
+  color: #333333;
+  text-align: center;
+}
+  
+
+/* fin ajout css */
 
 a,
 button {
@@ -41,7 +77,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0; /* padding des .bloc, images etc.  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -662,7 +698,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; pour que couleur h1 white fonctionne */
 }
 
 .container {
@@ -715,16 +751,18 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
+    color: white;
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    text-align: center;
 }
 
 .med-width-whitespace {
@@ -733,9 +771,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/* h1 {
     color: #333333!important;
-}
+} */
 
 h4 {
     color: #333333!important;
@@ -778,16 +816,16 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: white; /* ex #364577 */
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: white; /* ex #F3976C, id bloc-8 pour couleur footer */
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
+/* .tc-white {
+    color: #F3976C!important; 
+} */
 
 .btn-atomic-tangerine {
     background: #F3976C;
