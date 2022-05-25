@@ -185,6 +185,16 @@ header
   padding-bottom: 30px;
 }
 
+#temoignage
+{
+  font-size: 16px;
+  font-style: italic;
+}
+
+#ajustement-width
+{
+  width: 100%;
+}
 
 /* fin ajout css */
 
