@@ -140,6 +140,52 @@ header
   height: 220px;
 }
 
+#nav-contact
+{
+  top: -271%;
+  padding-right: 10%;
+  padding-top: 5px;
+}
+
+#position-contact
+{
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  left: 0%;
+}
+
+#bloc-6
+{
+  height: 400px;
+}
+
+#color-form {
+  background-color: #F2F2F2;
+}
+
+#titre-formulaire
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#flex-form
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#adresse
+{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
 /* fin ajout css */
 
 a,
@@ -806,7 +852,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 18px;
 }
 
 .hero-bloc-text-sub {
