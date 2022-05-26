@@ -4245,7 +4245,7 @@ input[type=submit].btn-block {
 }
 
 .fade.in {
-    opacity: 1
+    opacity: 1;
 }
 
 .collapse {

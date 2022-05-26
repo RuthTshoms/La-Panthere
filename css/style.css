@@ -497,7 +497,6 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-   /* height: 40px; report css */
 }
 
 .navbar-brand img {
@@ -854,7 +853,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    /* color: #575757!important; pour que couleur h1 white fonctionne */
 }
 
 .container {
@@ -927,10 +925,6 @@ h2 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-/* h1 {
-    color: #333333!important;
-} */
-
 h4 {
     color: #333333!important;
 }
@@ -972,16 +966,12 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: white; /* ex #364577 */
+    background-color: white; 
 }
 
 .bgc-atomic-tangerine {
-    background-color: white; /* ex #F3976C, id bloc-8 pour couleur footer */
+    background-color: white;
 }
-
-/* .tc-white {
-    color: #F3976C!important; 
-} */
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -1014,27 +1004,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
-.bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
-}
-
-.bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
-}
-
 @media (max-width: 1024px) {
-    /*.bloc {
-        padding-left: 20px;
-        padding-right: 20px; > supprime marge header
-    }*/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -1167,6 +1137,7 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        display: contents;
     }
     .navbar-brand img {
         max-height: 40px;
