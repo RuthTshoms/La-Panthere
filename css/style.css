@@ -1122,6 +1122,7 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        display: block;
     }
     .site-navigation {
         position: inherit;
@@ -1231,6 +1232,16 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .marge
+    {
+      width: 100%;
+    }
+
+    img.logo
+    {
+      width: 200px;
     }
 }
 
