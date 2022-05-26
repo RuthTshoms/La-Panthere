@@ -1,3 +1,5 @@
+/* Desktop first - version par défaut (min-width 993px) */
+
 *{
   font-family: 'Roboto', sans-serif;
 }
@@ -281,11 +283,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -563,6 +560,7 @@ a:hover {
     z-index: 2;
 }
 
+/* ____ Breakpoint tablette  ____ */ 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1004,6 +1002,7 @@ h4 {
     border-color: #364577!important;
 }
 
+/* ___ Breakpoint desktop ___ */
 @media (max-width: 1024px) {
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -1015,6 +1014,7 @@ h4 {
 
 }
 
+/* _____  T A B L E T T E  ____ */
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -1036,6 +1036,7 @@ h4 {
     }
 }
 
+/* ______ Breakpoint tablette ____ */
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -1065,6 +1066,7 @@ h4 {
     }
 }
 
+/* ______ M O B I L E  ____ */
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1216,6 +1218,7 @@ h4 {
     }
 }
 
+/* ______ Breakpoint mobile ____ */
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1223,6 +1226,7 @@ h4 {
     }
 }
 
+/* ______ Breakpoint mobile ____ */
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
