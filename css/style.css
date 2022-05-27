@@ -76,6 +76,7 @@ h1 {
 {
   font-size: 22px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 #position
@@ -191,11 +192,22 @@ header
 {
   font-size: 16px;
   font-style: italic;
+  margin-bottom: 30px;
 }
 
 #ajustement-width
 {
   width: 100%;
+}
+
+#bloc-2-services
+{
+  margin-top: 30px;
+}
+
+#bloc-8
+{
+  padding-bottom: 30px;
 }
 
 /* fin ajout css */
